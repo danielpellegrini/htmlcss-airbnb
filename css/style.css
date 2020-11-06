@@ -5,21 +5,35 @@
 }
 
 .container {
+  position: relative;
+  width: 100%;
+  max-width: auto;
 
 }
 
 .content {
   position: relative;
-  background: url(../img/tuscany.jpg);
   background-size: cover;
-  max-width: 100%;
-  height: auto;
+  max-width: 100vw;
+  height: 100vh;
 }
 
-.opacity {
-  background: rgba(0, 0, 0, 0.6);
-  width: 100vw;
-  height: 100vh;
+.tu {
+  background: url(../img/tuscany.jpg);
+}
+
+.ny{
+    background: url(../img/ny.jpg);
+}
+
+.ro {
+  background: url(../img/bran.jpg);
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
 }
 
 .city {
