@@ -42,8 +42,8 @@
 .city {
   position: absolute;
   font-size: 100px;
-  text-shadow: 8px 8px 8px #999;
-  color: #aaaaaa;
+  text-shadow: 6px 6px 6px #999;
+  color: #fff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
